@@ -3,6 +3,7 @@ Sobel Edge Detector in Serial C/MPI+OpenMP
 
 | OpenMP                             | Hw-job.sh setting                                     | Total time (sec) |
 | ---------------------------------- | ----------------------------------------------------- | ---------------- |
+| Serial C                           | 1 node, 1 ranks/node                                  | 8.66856489       |
 | static scheduling chunk=N/#threads | 1 node, 4 ranks/node, 4 threads/rank                  | 3.71714625       |
 | static scheduling chunk=N/#threads | 2 nodes, 2 ranks/node, 2 ranks/socket, 4 threads/rank | 3.08335465       |
 | static scheduling chunk=N/#threads | 2 nodes, 2 ranks/node, 1 ranks/socket,4 threads/rank  | 3.21714144       |
